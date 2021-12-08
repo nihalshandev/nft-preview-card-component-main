@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+.main-bg {
+  background-color: hsl(217, 54%, 11%);
+  padding: 3rem 1.5rem;
+  height: 100vh;
+}
+
+.img_container img {
+  width: 250px;
+  border-radius: 10px;
+}
+.main_card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem 2.5rem;
+  width: auto;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.card_content .discpription {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.buy_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy_container div {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.buy_container div img {
+    /* width: 10px; */
+    height: 20px;
+    margin: 5px;
+}
+
+.buy_container .days {
+    color: hsl(215, 51%, 70%);
+}
+
+.buy_container .eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.hr {
+    background-color: hsl(215, 32%, 27%);
+    height: 2px;
+}
+
+.card_footer {
+    display: flex;
+    align-items: center;
+}
+
+.card_footer img {
+    height: 2.5rem;
+    /* border: white solid 2px; */
+}
+
+.footer_img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.creation_p {
+    color: white;
+}
+.creation_p span {
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 420px) {
+    .main-bg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main_card {
+        width: 327px;
+    }
+}
